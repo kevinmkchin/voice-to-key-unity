@@ -8,11 +8,14 @@ public class GameManager : MonoBehaviour
 
     public GameObject obstacle;
     private int counter;
-    private int score;
+    private float speedMult;
+    public static int score;
 
     // Start is called before the first frame update
     void Start()
     {
+        speedMult = 1;
+        score = 0;
         counter = 0;
     }
 
@@ -38,8 +41,11 @@ public class GameManager : MonoBehaviour
 
             Debug.Log("spawn obstacles");
             counter = 0; //reset counter to 0
+
+            score++;
         }
 
+        Debug.Log(score.ToString());
         counter += 1;
     }
 }
