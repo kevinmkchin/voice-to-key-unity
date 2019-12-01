@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject obstacle;
     private int counter;
+    private int score;
 
     // Start is called before the first frame update
     void Start()
     {
-        counter = 0;   
+        counter = 0;
     }
 
     // Update is called once per frame
