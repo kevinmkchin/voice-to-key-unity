@@ -172,6 +172,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8418191863360622569, guid: 30d75cd0212ced140837f093e3c327e3,
+        type: 3}
+      propertyPath: m_Name
+      value: cube
+      objectReference: {fileID: 0}
     - target: {fileID: 2791739777936963491, guid: 30d75cd0212ced140837f093e3c327e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -241,11 +246,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 8418191863360622569, guid: 30d75cd0212ced140837f093e3c327e3,
-        type: 3}
-      propertyPath: m_Name
-      value: cube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d75cd0212ced140837f093e3c327e3, type: 3}
@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera

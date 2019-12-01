@@ -93,7 +93,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 214
-    height: 316
+    height: 293
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 316
+    y: 293
     width: 864
     height: 272
   m_MinSize: {x: 102, y: 122}
@@ -263,7 +263,7 @@ MonoBehaviour:
     x: 214
     y: 0
     width: 650
-    height: 316
+    height: 293
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 17}
@@ -351,9 +351,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 388.6667
+    y: 366
     width: 864
-    height: 253
+    height: 276
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -368,13 +368,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\chris\IdeaProjects\voice-to-key-unity2
+  m_LastProjectPath: C:\Users\alxan\Documents\GitHub\voice-to-key-unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -502,7 +502,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 373
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -527,7 +527,7 @@ MonoBehaviour:
     x: 0
     y: 72.66667
     width: 214
-    height: 297
+    height: 274
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -582,7 +582,7 @@ MonoBehaviour:
     x: 214
     y: 72.66667
     width: 648
-    height: 297
+    height: 274
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 88e9c450b672f2243b1ab5a35b893b99
@@ -681,7 +681,7 @@ MonoBehaviour:
     x: 214
     y: 72.66667
     width: 648
-    height: 297
+    height: 274
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -696,8 +696,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -216
     m_HBaseRangeMax: 216
-    m_VBaseRangeMin: -93.333336
-    m_VBaseRangeMax: 93.333336
+    m_VBaseRangeMin: -85.66667
+    m_VBaseRangeMax: 85.66667
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -716,9 +716,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 648
-      height: 280
+      height: 257
     m_Scale: {x: 1.3280592, y: 1.3280592}
-    m_Translation: {x: 324, y: 140}
+    m_Translation: {x: 324, y: 128.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -726,14 +726,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -243.96503
-      y: -105.416985
+      y: -96.75774
       width: 487.93005
-      height: 210.83397
+      height: 193.51547
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 972, y: 445.5}
+  m_LastWindowPixelSize: {x: 972, y: 411}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
