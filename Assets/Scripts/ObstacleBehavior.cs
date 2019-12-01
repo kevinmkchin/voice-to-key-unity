@@ -16,7 +16,11 @@ public class ObstacleBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * Time.deltaTime * 1);
+        transform.Translate(Vector3.back * Time.deltaTime * 2);
+
+        if (transform.position.z <= -0.7) {
+            Destroy(gameObject);
+        }
 
     }
 }
