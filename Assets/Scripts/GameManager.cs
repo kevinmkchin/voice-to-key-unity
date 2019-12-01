@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -17,14 +18,26 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (counter >= 120) {
+        if (counter >= 180) {
 
-            Instantiate(obstacle, new Vector3(1, 1, 1), Quaternion.identity);
+            System.Random random = new System.Random();
+            int x = random.Next(-1, 2);
+            int y = random.Next(-1, 2);
+
+            Instantiate(obstacle, new Vector3(x, y, 2), Quaternion.identity);
+
+            x = random.Next(-1, 2);
+            y = random.Next(-1, 2);
+
+            Instantiate(obstacle, new Vector3(x, y, 2), Quaternion.identity);
+
+            x = random.Next(-1, 2);
+            y = random.Next(-1, 2);
+            Instantiate(obstacle, new Vector3(x, y, 2), Quaternion.identity);
 
             Debug.Log("spawn obstacles");
             counter = 0; //reset counter to 0
         }
-
 
         counter += 1;
     }
